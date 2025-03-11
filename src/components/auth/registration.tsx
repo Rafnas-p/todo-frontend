@@ -7,7 +7,7 @@ function Registration() {
   const [open, setOpen] = useState(false);
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className="bg-white w-80 p-6 shadow-inner items-center rounded-lg">
+      <div className="bg-white w-80 p-6 shadow-lg items-center rounded-lg">
         <h1 className="text-3xl text-red-900 items-center mb-4">Create Account</h1>
 
         <Formik
